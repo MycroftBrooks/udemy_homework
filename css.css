@@ -1,1 +1,54 @@
+.avokaciva{
+  position: relative;
+}
 
+h1 {
+  font-family: Arial;
+  color: #00FFFF;
+  font-size: 50px;
+  padding: 30px 30px;
+  text-shadow: 2px 2px 1px rgb(27 27 27 / 46%);
+  text-transform: uppercase;
+}
+.kuno_kelage{
+  background-color: rgb(249 238 238 / 40%);
+  border-radius: 10px;
+  border: 1px solid rgba(249 238 238 / 40%);
+  position: absolute;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display:block;
+  margin:0 auto;
+}
+.kuno_kelage1 {
+  width: 76%;
+  height: 170px;
+  top: 5px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.kuno_kelage2{
+  width:40px;
+  height:40px;
+  top:-30px;
+  left:-80%;
+  right:0;
+  z-index: 4;
+}
+.kuno_kelage3{
+  width:60px;
+  height:60px;
+  top:220px;
+  right:50px;
+  z-index: 3;
+}
+.kuno_kelage4{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  top:-55px;
+  right:20px;
+}
