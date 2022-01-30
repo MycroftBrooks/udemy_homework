@@ -1,54 +1,84 @@
-.avokaciva{
-  position: relative;
+body {
+    margin: 0;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: black;
 }
 
-h1 {
-  font-family: Arial;
-  color: #00FFFF;
-  font-size: 50px;
-  padding: 60px 30px;
-  text-shadow: 2px 2px 1px rgb(27 27 27 / 46%);
-  text-transform: uppercase;
+*,
+*:before,
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
 }
-.kuno_kelage{
-  background-color: rgb(249 238 238 / 40%);
-  border-radius: 10px;
-  border: 1px solid rgba(249 238 238 / 40%);
-  position: absolute;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  display:block;
-  margin:0 auto;
+
+p {
+    margin: 0 0 10px;
 }
-.kuno_kelage1 {
-  width: 76%;
-  height: 170px;
-  top: 5px;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+
+
+/* Container
+===================*/
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
 }
-.kuno_kelage2{
-  width:40px;
-  height:40px;
-  top:-30px;
-  left:-80%;
-  right:0;
-  z-index: 4;
+
+
+/* Header
+===================*/
+
+.header {
+    width: 100%;
+    height: 100px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
-.kuno_kelage3{
-  width:60px;
-  height:60px;
-  top:220px;
-  right:50px;
-  z-index: 3;
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+
+    border-bottom: 1px solid red;
 }
-.kuno_kelage4{
-  width:40px;
-  height:40px;
-  border-radius: 50%;
-  top:-55px;
-  right:20px;
+
+
+/* Nav
+===================*/
+
+.nav {
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    margin-left: 100px;
+
+    color: #fff;
+    text-decoration: none;
+    opacity: .85;
+
+    transition: opacity .1s linear;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    opacity: 1;
 }
