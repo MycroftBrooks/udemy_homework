@@ -84,3 +84,12 @@ p {
 .nav__link:hover {
     opacity: 1;
 }
+
+.header__logo{
+  filter: brightness(62%);
+}
+
+.content{
+  filter: blur(4px);
+  position: fixed;
+}
