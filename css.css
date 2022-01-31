@@ -41,7 +41,7 @@ p {
     width: 100%;
     height: 100px;
 
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -90,7 +90,11 @@ p {
   filter: brightness(62%);
 }
 
-.content{
+.fon{
   filter: blur(4px);
+  position: fixed;
+}
+
+.content h1{
   position: fixed;
 }
