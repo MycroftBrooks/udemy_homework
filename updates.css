@@ -79,6 +79,11 @@ body {
   padding: 15px 30px;
   border-radius: 15px;
 }
+.text_update, .version {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  padding: 5px;
+}
 #first {
   background-image: url(sources/gow1.gif);
   order:1;
