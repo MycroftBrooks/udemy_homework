@@ -7,6 +7,7 @@ body {
     color: #6c7279;
     -webkit-font-smoothing: antialiased;
 
+
     background-color: black;
 }
 
@@ -40,7 +41,7 @@ p {
     width: 100%;
     height: 100px;
 
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 1000;
