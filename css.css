@@ -1,5 +1,4 @@
 body {
-    
     margin: 0;
     width: 100%;
     font-family: 'Raleway', sans-serif;
@@ -92,9 +91,5 @@ p {
 
 .fon{
   filter: blur(4px);
-  position: fixed;
-}
-
-.content h1{
   position: fixed;
 }
