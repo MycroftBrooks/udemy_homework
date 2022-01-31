@@ -107,12 +107,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .new{
-  margin-top: 10%;
+  margin-top: 5%;
   width: 1200px;
   height: 600px;
   border: 2px solid red;
@@ -121,12 +119,27 @@ p {
 
 .picture{
   margin-left: 5%;
-  margin-top: 8%;
+  margin-top: 11%;
   background-color: black;
   padding-right: 10px;
   float: right;
 }
 
-.content h1{
+.new_logo{
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  color: #800000;
+}
 
+.text1{
+  color: white;
+  margin-left: 50%;
+  margin-right: 5%;
+  margin-top: -34%;
+  border: 1px solid red;
+  border-radius: 20px;
+  background: #696969;
 }
